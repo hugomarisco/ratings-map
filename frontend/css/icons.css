@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "usabilla";
+  src:url("../fonts/usabilla.eot");
+  src:url("../fonts/usabilla.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/usabilla.woff") format("woff"),
+    url("../fonts/usabilla.ttf") format("truetype"),
+    url("../fonts/usabilla.svg#usabilla") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "usabilla" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "usabilla" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\61";
+}
+.icon-hand-spock-o:before {
+  content: "\62";
+}

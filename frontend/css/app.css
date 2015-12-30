@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  text-align: center;
+  padding: 2rem;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.box.red-bg {
+  background: #F06060;
+}
+
+.box.orange-bg {
+  background: #F07860;
+}
+
+.box.dark-yellow-bg {
+  background: #F0C078;
+}
+
+.box.yellow-bg {
+  background: #F0D878;
+}
+
+.box.green-bg {
+  background: #C0D878;
+}
+
+.box.gray-bg {
+  background: #EEEEEE;
+}
+
+.angular-google-map-container {
+  margin-top: 2rem;
+  height: 600px;
+}
