@@ -40,7 +40,7 @@ feedbackApp.controller('MainCtrl', function ($scope, $http) {
     }
   }
 
-  $http.get('http://localhost:4567/data').then(function(res) {
+  $http.get('http://usabilla.hugomarisco.in:4567/data').then(function(res) {
     $scope.items = res.data;
   }, function(err) {
     console.log(err);
